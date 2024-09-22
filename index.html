@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Utilidad</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="Ejercicio8.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Utilidad</h1>
+
+        <label for="salarioMensual">Salario Mensual:</label>
+        <input type="number" id="salarioMensual" placeholder="Ingresa el salario mensual">
+
+        <label for="antiguedad">Años de Antigüedad:</label>
+        <input type="number" id="antiguedad" placeholder="Ingresa los años de antigüedad">
+
+        <button onclick="calcularUtilidad()">Calcular Utilidad</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+</body>
+</html>
